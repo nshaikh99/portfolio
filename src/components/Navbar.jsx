@@ -13,10 +13,10 @@ const Navbar = () => {
     <div className='fixed w-full h-[80px] flex justify-center items-center px-4 bg-[#002756] text-gray-300'>
         {/* menu */}
         <ul className='hidden md:flex'>
-            <li><Link to='home' smooth={true} duration={500}>Home</Link></li>
-            <li><Link to='about' smooth={true} duration={500}>About</Link></li>
-            <li><Link to='skills' smooth={true} duration={500}>Skills</Link></li>
-            <li><Link to='projects' smooth={true} duration={500}>Projects</Link></li>
+            <li className='hover:text-gray-400 duration-200'><Link to='home' smooth={true} duration={500}>Home</Link></li>
+            <li className='hover:text-gray-400 duration-200'><Link to='about' smooth={true} duration={500}>About</Link></li>
+            <li className='hover:text-gray-400 duration-200'><Link to='skills' smooth={true} duration={500}>Skills</Link></li>
+            <li className='hover:text-gray-400 duration-200'><Link to='projects' smooth={true} duration={500}>Projects</Link></li>
         </ul>
 
         {/* hamburger */}
